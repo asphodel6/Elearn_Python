@@ -25,7 +25,7 @@ print("Динамика количества вакансий по годам д
 print("Уровень зарплат по городам (в порядке убывания): " + str(area_dic))
 print("Доля вакансий по городам (в порядке убывания): " + str(count_area))
 
-key1 = vac_dic.keys()
+key2 = vac_dic.keys()
 figure, _ax = plt.subplots(2, 2)
 X_axi = np.arange(len(salary_dic.keys()))
 w = 0.4
