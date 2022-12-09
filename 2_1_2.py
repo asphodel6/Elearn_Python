@@ -39,7 +39,7 @@ _ax[0, 0].tick_params(axis='both', labelsize=8)
 _ax[0, 0].legend(fontsize = 8)
 
 
-_ax[0, 1].bar(X_axi - w / 2, count_dic.values(), width=w, label ='Количество вакансий')
+_ax[0, 1].bar(X_axi - w / 2, count_dic.values(), width=w, label ='Количество вак')
 _ax[0, 1].bar(X_axi + w / 2, vac_count_dic.values(), width=w, label ='Количество вакансий\nпрограммист')
 _ax[0, 1].set_xticks(X_axi, count_dic.keys())
 _ax[0, 1].set_xticklabels(count_dic.keys(), rotation='vertical', va='top', ha='center')
