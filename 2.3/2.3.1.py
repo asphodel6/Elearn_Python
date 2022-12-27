@@ -648,7 +648,7 @@ class Report:
         subplot.axis('scaled')
 
     # endregion
-    # region PDF
+    # region PDF 
 
     def generate_pdf(self, name: str):
         """Генерирует PDF-файл на основании данных из DataSet - data и разметки PDF - pdf_template.html.
